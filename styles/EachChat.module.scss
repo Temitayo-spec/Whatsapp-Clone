@@ -1,0 +1,19 @@
+.chat__inner {
+    display: flex;
+
+    .chat__ctn {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        height: 100%;
+        min-height: 100vh;
+
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}

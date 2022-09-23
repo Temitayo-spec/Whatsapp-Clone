@@ -1,0 +1,35 @@
+.chat__wrapper {
+    width: 100%;
+
+    .chat__inner {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 1em 2em;
+        border-bottom: 1px solid #eaeaea;
+
+        .chat__info {
+            flex: 1;
+            display: flex;
+            align-items: center;
+
+            .chat__avatar {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+            }
+
+            p {
+                font-size: 14px;
+                color: gray;
+                margin-left: 1em;
+            }
+        }
+
+
+
+        &:hover {
+            background-color: #e9eaeb;
+        }
+    }
+}

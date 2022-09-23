@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "../styles/Loader.module.scss";
-import { Circle } from "better-react-spinkit";
+import Loader  from "react-loaders";
 
-const Loader = () => {
+const Loading = () => {
   return (
     <div className={styles.wrapper}>
       <img
@@ -11,9 +11,9 @@ const Loader = () => {
         width={200}
         height={200}
       />
-      <Circle color="#3CBC28" size={60} />
+      <Loader type="ball-pulse" />
     </div>
   );
 };
 
-export default Loader;
+export default Loading;

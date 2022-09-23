@@ -1,0 +1,64 @@
+.sender {
+    font-size: 12px;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    border-radius: 8px;
+    margin: 1em;
+    padding-bottom: 1.4em;
+    position: relative;
+    text-align: left;
+    background-color: #dcf8c6;
+    position: relative;
+    min-width: 100px;
+
+    .inner {
+        p {
+            margin-bottom: 4px;
+            color: #000;
+            font-size: 14px;
+        }
+
+        .timestamp {
+            position: absolute;
+            bottom: 0.2em;
+            right: 0.4em;
+            font-size: 10px;
+            color: gray;
+            margin-top: 10px;
+        }
+    }
+}
+
+.receiver {
+    font-size: 12px;
+    margin-bottom: 0.5em;
+    text-align: left;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 8px;
+    margin: 1em;
+    min-width: 100px;
+    padding-bottom: 1.4em;
+    position: relative;
+    text-align: left;
+    background-color: whitesmoke;
+    align-self: flex-start;
+    position: relative;
+
+    .inner {
+        p {
+            margin-bottom: 4px;
+            color: #000;
+            font-size: 14px;
+        }
+
+        .timestamp {
+            position: absolute;
+            bottom: 0.2em;
+            right: 0.4em;
+            font-size: 10px;
+            color: gray;
+            margin-top: 10px;
+        }
+    }
+}
